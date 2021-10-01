@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(2, 80, 102);
+}
+
+.form{
+    /* background-color: white; */
+    height: 500px;
+    width: 350px;
+    position: absolute; 
+    margin: auto;
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0;
+
+}
+
+form > div{
+    margin-top: 20px;
+    background-color: rgb(1, 51, 65);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+div > input{
+    padding: 15px;
+    width: 300px;
+    background-color: rgb(1, 51, 65);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+input :hover::placeholder{
+    outline: white 1px solid;
+    /* font-weight: bold; */
+}
+
+div > button{
+    padding: 10px;
+    background-color:tomato;
+    width: 300px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn{
+    background-color: tomato;
+}
+.country{
+    background-color: rgb(5, 36, 44);
+}
+
+select{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: rgb(5, 36, 44);
+    color: rgb(204, 203, 203);
+    font-size: 15px;
+}
+
+
+
